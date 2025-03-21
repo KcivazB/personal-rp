@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  # 🐘 Base de données PostgreSQL
+  database:
+    image: postgres:15
+    container_name: symfony_db
+    restart: always
+    environment:
+      POSTGRES_DB: app
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+  # 🖥️ Serveur PHP + Symfony
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: symfony_backend
+    restart: always
+    depends_on:
+      - database
+    environment:
+      DATABASE_URL: "postgresql://user:password@database:5432/app"
+    volumes:
+      - ./backend:/var/www
+    ports:
+      - "8080:80"
+
+  # 🌍 Frontend Vue.js
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: vue_frontend
+    restart: always
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+
+volumes:
+  db_data:

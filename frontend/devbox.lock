@@ -1,0 +1,36 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "resolved": "github:NixOS/nixpkgs/ab0c5b18dab5e4b5d06ed679f8fd7cdc9970c4be?lastModified=1741646908&narHash=sha256-55a1x5k%2BoFY2QCFjj7Mn5nPa8Do0shVl0m280mOAW%2FQ%3D"
+    },
+    "vue@latest": {
+      "last_modified": "2025-02-07T11:26:36Z",
+      "resolved": "github:NixOS/nixpkgs/d98abf5cf5914e5e4e9d57205e3af55ca90ffc1d#vue",
+      "source": "devbox-search",
+      "version": "3.3.0",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/avy9zkbrn49sdfvfw7kafkvf2jy9540z-vue-3.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/avy9zkbrn49sdfvfw7kafkvf2jy9540z-vue-3.3.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/50jf3zzdv48lrbrg91xjw4174hi90gfx-vue-3.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/50jf3zzdv48lrbrg91xjw4174hi90gfx-vue-3.3.0"
+        }
+      }
+    }
+  }
+}

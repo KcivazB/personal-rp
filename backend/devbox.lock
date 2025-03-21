@@ -1,0 +1,153 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "resolved": "github:NixOS/nixpkgs/e05f8bda630a0836d777d84de14b3c16eb758514?lastModified=1741555572&narHash=sha256-V7OUcWBM8pjCPsSFLZiO72oZTS6fV2FVPjT1bxqfLmo%3D"
+    },
+    "php82Packages.composer@latest": {
+      "last_modified": "2025-02-07T20:06:47Z",
+      "resolved": "github:NixOS/nixpkgs/e8d0b02af0958823c955aaab3c82b03f54411d91#php82Packages.composer",
+      "source": "devbox-search",
+      "version": "2.8.5",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/qs468q1w3p4wc2kdd0zvdc8fg4bb9378-composer-2.8.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/qs468q1w3p4wc2kdd0zvdc8fg4bb9378-composer-2.8.5"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gqnjwlzv1ws1pw9wsg4axyv33bm4w28w-composer-2.8.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/gqnjwlzv1ws1pw9wsg4axyv33bm4w28w-composer-2.8.5"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/34yq2z1srfk2g5p1lrpxf4f3wdi5sqil-composer-2.8.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/34yq2z1srfk2g5p1lrpxf4f3wdi5sqil-composer-2.8.5"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/18ksy9m5yfngpclrs4vl7diz9g0g1gip-composer-2.8.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/18ksy9m5yfngpclrs4vl7diz9g0g1gip-composer-2.8.5"
+        }
+      }
+    },
+    "php@8.2": {
+      "last_modified": "2025-02-07T20:06:47Z",
+      "plugin_version": "0.0.3",
+      "resolved": "github:NixOS/nixpkgs/e8d0b02af0958823c955aaab3c82b03f54411d91#php82",
+      "source": "devbox-search",
+      "version": "8.2.27",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ib420qkz59hbmnlf38dj9w33gq3052vk-php-with-extensions-8.2.27",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ib420qkz59hbmnlf38dj9w33gq3052vk-php-with-extensions-8.2.27"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ikw833k4jcc0ki83ybn6nyizf14sjhf8-php-with-extensions-8.2.27",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ikw833k4jcc0ki83ybn6nyizf14sjhf8-php-with-extensions-8.2.27"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/37nma85hm0wr7mpcam3wgg5p0gx29dl3-php-with-extensions-8.2.27",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/37nma85hm0wr7mpcam3wgg5p0gx29dl3-php-with-extensions-8.2.27"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/iwfjxfkhsi4pkqr3x0rl8qir52pwknak-php-with-extensions-8.2.27",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/iwfjxfkhsi4pkqr3x0rl8qir52pwknak-php-with-extensions-8.2.27"
+        }
+      }
+    },
+    "symfony-cli@latest": {
+      "last_modified": "2025-02-27T15:48:43Z",
+      "resolved": "github:NixOS/nixpkgs/6c5c5f5100281f8f4ff23f13edd17d645178c87c#symfony-cli",
+      "source": "devbox-search",
+      "version": "5.11.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/72d907ry8wjnv5j0x98353zqs7l9l8aa-symfony-cli-5.11.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/72d907ry8wjnv5j0x98353zqs7l9l8aa-symfony-cli-5.11.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/q3fffjgj724b3fxk3xf2xiyknhgi9z0m-symfony-cli-5.11.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/q3fffjgj724b3fxk3xf2xiyknhgi9z0m-symfony-cli-5.11.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ixxazr00lbal2wy3h8raim54w3c4r1x3-symfony-cli-5.11.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ixxazr00lbal2wy3h8raim54w3c4r1x3-symfony-cli-5.11.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xgdmv99382ajpc24j290qn08qky5jpn7-symfony-cli-5.11.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/xgdmv99382ajpc24j290qn08qky5jpn7-symfony-cli-5.11.0"
+        }
+      }
+    }
+  }
+}
