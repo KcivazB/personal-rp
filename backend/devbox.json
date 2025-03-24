@@ -3,7 +3,7 @@
   "packages": [
     "symfony-cli@latest",
     "php82Packages.composer@latest",
-    "php@8.2"
+    "php@latest"
   ],
   "shell": {
     "init_hook": [
